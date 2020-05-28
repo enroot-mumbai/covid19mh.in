@@ -44,6 +44,8 @@ npm start
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
+## Git Flow Documentation
+https://github.com/enroot-mumbai/covid19mh.in/wiki
 
 ## Join the team
 

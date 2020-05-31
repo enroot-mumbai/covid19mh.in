@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #eee;
+  font-family: 'Nunito', sans-serif;
+  width:100%;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#App{
+  padding:0;
+  box-sizing:border-box;
+  max-width:100%;
+}
+#App h1,#App p{
+  color:#444;
+  text-align:center;
+}
+#blog-list{
+  padding:0
+}
+#blog-list h4{
+  color:#880e4f;
+  margin:20px;
+  box-sizing:border-box;
+}
+.seperation{
+  width:80%;
+  background-color:#444;
+  color:#444;
+  height:2px;
+}
+#blog-list li{
+  display:inline-block;
+  margin:12px;
+  padding:10px;
+  border-radius:4px;
+  border:1px solid #880e4f;
+  box-shadow: 1px 2px 3px rgba(0,0,0,0.5);
+  color:#880e4f;
+  cursor: pointer;
+}
+
+form{
+  border-radius: 24px;
+  padding:20px;
+}
+form button{
+  background-color:#fff;
+  border:0;
+  cursor:pointer;
+}
+
+#blog-details{
+  background:#ad1457;
+  padding:30px;
+  color:#fff;
+  overflow:auto;
+  box-shadow: -2px -3px 5px rgba(0,0,0,0.3);
+  box-sizing:border-box;
+}
+#blog-details p{
+  text-align:start;
+}
+#blog-details .other-blogs li{
+  border-color:white;
+  cursor:default;
+}
+
+
+@media only screen and (min-width:992px){
+  #App{
+    width:60% !important;
+    height:100% !important;
+    position: absolute;
+    top:0;
+    left:0;
+  }
+  #blog-details{
+    width:40%;
+    height:100%;
+    position:fixed;
+    top:0;
+    right:0;
+  }
+}
